@@ -1,0 +1,53 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;600&display=swap');
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.landing-page {
+    background-image: url('background.jpg'); /* Ganti dengan file background.jpg */
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-page .content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.landing-page h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 3.5rem;
+}
+
+/* Custom Fonts for Modal */
+.pacifico-font {
+    font-family: 'Pacifico', cursive;
+    color: #d63384;
+}
+
+.poppins-font {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.modal-content {
+    border-radius: 15px;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-footer {
+    border-top: none;
+}
